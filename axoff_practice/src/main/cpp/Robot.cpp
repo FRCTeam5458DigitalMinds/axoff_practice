@@ -95,6 +95,7 @@ void Robot::RobotPeriodic() {
       LeftBack.Set(ctre::phoenix::motorcontrol::ControlMode::PercentOutput, 0);
     }
   }
+}
 
 
 /**
